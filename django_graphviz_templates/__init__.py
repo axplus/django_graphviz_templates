@@ -1,4 +1,1 @@
-from .viz import viz_render_to_svg, viz_render_to_svg_response
-
-
-
+__version__ = '0.1.1'

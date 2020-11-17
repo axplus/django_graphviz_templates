@@ -1,11 +1,13 @@
 import setuptools
 
+import django_graphviz_templates
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name='django_graphviz_templates',
-    version="0.1.0",
+    version=django_graphviz_templates.__version__,
     author="yijie zeng",
     author_email="axplus@163.com",
     description="a quick render for django from graphviz formatted file",
